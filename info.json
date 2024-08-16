@@ -2,7 +2,7 @@
     "sucursales": [
         {
             "id": 1,
-            "nombre": "Karen",
+            "nombre": "Alberto",
             "direccion": "Miraflores",
             "telefono": "3232458",
             "celular": "3232483683",
@@ -10,7 +10,7 @@
         },
         {
             "id": 2,
-            "nombre": "Luis",
+            "nombre": "karen",
             "direccion": "Delicias",
             "telefono": "15646516",
             "celular": "328465",

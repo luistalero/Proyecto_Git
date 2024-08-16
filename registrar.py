@@ -1,5 +1,6 @@
 import json
 import os
+import funciones.globales as fg
 
 def abrirArchivo():
     if os.path.exists("info.json"):
@@ -13,6 +14,13 @@ def guardarArchivo(data):
         json.dump(data, file, ensure_ascii=False, indent=4)
 
 def registro_sucursal():
+    title= """
+************************************
+* SESION DE REGISTRO DE SUCURSALES *
+************************************
+"""
+    fg.borrar_pantalla
+    print(title)
     sucursal = abrirArchivo()
     id = int(input("Ingrese el ID del gerente o responsable: "))
     nombre = input("Ingrese el nombre de la Sucursal: ")
