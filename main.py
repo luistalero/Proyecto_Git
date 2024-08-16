@@ -1,6 +1,9 @@
 import funciones.globales as fg
-def Mainmenu(op):
+import opciones.registrar as r
+import opciones.editar as m
+import opciones.eliminar as e
 
+def Mainmenu(op):
     title = """
 ********************************
 * MENU PRINCIPAL DE SUCURSALES *
@@ -22,9 +25,9 @@ def Mainmenu(op):
                 case 1:
                     r.registro_sucursal(1)
                 case 2:
-                    om.modificar_sucursal(0)
+                    m.modificar_sucursal(0)
                 case 3:
-                    oe.eliminar_sucursal(0)
+                    e.eliminar_sucursal(0)
                 case 4:
                     pass
                 case 5:
