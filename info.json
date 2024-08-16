@@ -1,0 +1,20 @@
+{
+    "sucursales": [
+        {
+            "id": 1,
+            "nombre": "Karen",
+            "direccion": "Miraflores",
+            "telefono": "3232458",
+            "celular": "3232483683",
+            "correo": "karenlorenacriscaceres@gmail.com"
+        },
+        {
+            "id": 2,
+            "nombre": "Luis",
+            "direccion": "Delicias",
+            "telefono": "15646516",
+            "celular": "328465",
+            "correo": "luistalero@gmail.com"
+        }
+    ]
+}
